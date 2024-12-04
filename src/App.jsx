@@ -4,7 +4,7 @@ import Card2 from "./Card2"
 import Card3 from "./Card3"
 const App = () => {
   return (
-    <div className='h-screen flex w-full bg-black '>
+    <div className='w-full bg-black lg:flex'>
     <Card1/>
     <Card2/>
     <Card3/>

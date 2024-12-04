@@ -20,7 +20,7 @@ extend({ MeshLineGeometry, MeshLineMaterial });
 
 export default function Card2() {
   return (
-    <div className="w-1/3">
+    <div className="w-full h-screen">
       <Canvas camera={{ position: [0, 0, 13], fov: 25 }}>
         <ambientLight intensity={Math.PI} />
         <Physics
